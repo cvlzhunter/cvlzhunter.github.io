@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.hecongda.com/git-tutorial.html</loc>
+    
+    <lastmod>2019-05-03T16:59:23.893Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.hecongda.com/about/index.html</loc>
     
-    <lastmod>2019-05-03T09:01:21.553Z</lastmod>
+    <lastmod>2019-05-03T16:40:58.044Z</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>http://blog.hecongda.com/photos/index.html</loc>
     
     <lastmod>2019-05-03T07:33:47.718Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.hecongda.com/hello-world.html</loc>
-    
-    <lastmod>2019-05-02T11:25:43.321Z</lastmod>
     
   </url>
   

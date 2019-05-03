@@ -380,7 +380,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://blog.hecongda.com/hello-world.html">
+    <link itemprop="mainEntityOfPage" href="http://blog.hecongda.com/git-tutorial.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="文明的猎手">
@@ -400,7 +400,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/hello-world.html" class="post-title-link" itemprop="url">Hello World</a>
+                <a href="/git-tutorial.html" class="post-title-link" itemprop="url">git-tutorial</a>
               
             
           </h1>
@@ -425,7 +425,7 @@
                 
               
 
-              <time title="创建时间：2019-05-02 01:33:53 / 修改时间：19:25:43" itemprop="dateCreated datePublished" datetime="2019-05-02T01:33:53+08:00">2019-05-02</time>
+              <time title="创建时间：2019-05-04 00:27:13 / 修改时间：00:59:23" itemprop="dateCreated datePublished" datetime="2019-05-04T00:27:13+08:00">2019-05-04</time>
             
 
             
@@ -447,7 +447,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a></span>
 
                 
                 
@@ -466,8 +466,8 @@
                 </span>
             
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/hello-world.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/hello-world.html" itemprop="commentCount"></span>
+                <a href="/git-tutorial.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/git-tutorial.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -496,15 +496,13 @@
 
       
         
-          
-            <p>
-              Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
-              ...
-            </p>
+          <blockquote>
+<p>博客荒废了好几年，心血来潮使用 <code>github</code> 重新建了一个小站，访问速度还是有点慢，凑合着吧，反正也不一定经常更新 ๑乛◡乛๑，这篇文章是很早的笔记，刚建站没啥东西就放上来了。</p>
+</blockquote>
           <!--noindex-->
           
             <div class="post-button text-center">
-              <a class="btn" href="/hello-world.html#more" rel="contents">
+              <a class="btn" href="/git-tutorial.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -735,7 +733,7 @@
 
   
     <span class="post-meta-item-icon">
-      <i class="fa fa-eye"></i>
+      <i class="fa fa-paper-plane"></i>
     </span>
     <span class="site-uv" title="总访客量">
       <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
@@ -748,7 +746,7 @@
 
   
     <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
+      <i class="fa fa-line-chart"></i>
     </span>
     <span class="site-pv" title="总访问量">
       <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
@@ -927,7 +925,7 @@
   new Valine({
     el: '#comments',
     verify: false,
-    notify: false,
+    notify: true,
     appId: '2hclARfbjORH5S3QbiS0sHke-9Nh9j0Va',
     appKey: 'd4kzShSdn4WMJzpjgCJOkktC',
     placeholder: '客官，看了这么久，不说点啥吗，记得要文明用语哦',
@@ -935,7 +933,8 @@
     meta: guest,
     pageSize: '10' || 10,
     visitor: false,
-    lang: '' || 'zh-cn'
+    lang: '' || 'zh-cn',
+    avatar_cdn:'https://www.gravatar.com/avatar/'
   });
   var infoEle = document.querySelector('#comments .info');
   if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
