@@ -2,9 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2019/05/02/hello-world/</loc>
+    <loc>http://blog.hecongda.com/about/index.html</loc>
     
-    <lastmod>2019-05-01T17:33:53.473Z</lastmod>
+    <lastmod>2019-05-03T09:01:21.553Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.hecongda.com/404.html</loc>
+    
+    <lastmod>2019-05-03T07:49:50.841Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.hecongda.com/photos/index.html</loc>
+    
+    <lastmod>2019-05-03T07:33:47.718Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.hecongda.com/hello-world.html</loc>
+    
+    <lastmod>2019-05-02T11:25:43.321Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.hecongda.com/categories/index.html</loc>
+    
+    <lastmod>2019-05-02T11:04:12.560Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.hecongda.com/tags/index.html</loc>
+    
+    <lastmod>2019-05-02T11:04:07.665Z</lastmod>
     
   </url>
   
